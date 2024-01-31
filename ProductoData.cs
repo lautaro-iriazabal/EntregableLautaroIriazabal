@@ -10,7 +10,7 @@ namespace EntregableLautaroIriazabal
 {
     internal static class ProductoData
     {
-        private static string connectionString = "tu_cadena_de_conexion";
+        private static string connectionString = "Server=localhost;Database=CoderHouse50285C#;Trusted_Connection=True";
 
         public static Producto ObtenerProducto(int id)
         {
