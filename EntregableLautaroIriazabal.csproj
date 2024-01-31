@@ -52,6 +52,7 @@
     <Compile Include="Usuario.cs" />
     <Compile Include="UsuarioData.cs" />
     <Compile Include="Venta.cs" />
+    <Compile Include="VentaData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

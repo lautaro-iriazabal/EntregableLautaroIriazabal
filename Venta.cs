@@ -8,8 +8,8 @@ namespace EntregableLautaroIriazabal
 {
     internal class Venta
     {
-        private int Id { get; set; }
-        private string Comentarios { get; set; }
-        private int IdUsuario { get; set; }
+        public int Id { get; set; }
+        public string Comentarios { get; set; }
+        public int IdUsuario { get; set; }
     }
 }
