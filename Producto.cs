@@ -8,12 +8,12 @@ namespace EntregableLautaroIriazabal
 {
     internal class Producto
     {
-        private int Id { get; set; }
-        private string Descripcion { get; set; }
-        private decimal Costo { get; set; }
-        private decimal PrecioVenta { get; set; }
-        private int Stock { get; set; }
-        private int IdUsuario { get; set; }
+        public int Id { get; set; }
+        public string Descripcion { get; set; }
+        public decimal Costo { get; set; }
+        public decimal PrecioVenta { get; set; }
+        public int Stock { get; set; }
+        public int IdUsuario { get; set; }
     }
 
 }
